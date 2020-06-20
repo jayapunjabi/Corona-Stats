@@ -1,0 +1,46 @@
+div,body .ui-table .ui-table-thead {
+    padding: 0.571em 0.857em;
+    border: 1px solid #F1D4D4;
+    font-weight: 700;
+    color: #333333;
+    background-color :white;
+}
+
+.container{
+    background-color: #484C7F;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.ui-table-caption  .ui-widget-header{
+    background-color: #F1D4D4;
+}
+
+ #name{
+    border-radius: 20px;
+    height: 30px;
+}
+
+th{
+    background-color : #DDB6C6 !important;
+     color: white !important;
+}
+
+tr:nth-child(even) {
+    background: #AC8DAF !important;
+    color: white !important;
+}
+tr:nth-child(odd) {
+    background: #484C7F !important;
+    color: white !important;
+}
+
+.navbar{
+   width:100%;
+}
+.container{
+    max-width: 100%;
+}
