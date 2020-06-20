@@ -39,7 +39,7 @@ export class MainComponent implements OnInit {
     { field: 'country_name' , header: 'Country'},
     { field: 'cases' , header: 'Cases'},
     { field: 'deaths' , header: 'Deaths'},
-    { field: 'total-recovered' , header: 'Recovered'},
+    { field: 'total_recovered' , header: 'Recovered'},
     { field: 'new_cases' , header: 'New Cases Today'},
     { field: 'new_deaths' , header: 'New Deaths Today'},
     
