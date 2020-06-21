@@ -17,14 +17,43 @@ h1{
     color: white;
 }
 
-.ui-table-caption  .ui-widget-header{
-    background-color: #F1D4D4;  
-}
 
  #name{
-    border-radius: 20px;
-    height: 30px;
+  
+    height: 30px;outline: none;
+    border: none;
+    width: 100%;
+    outline: 0;
+    padding: 5px 30px;
+    border-bottom: 1.5px solid rgb(174, 174, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
 }
+
+.input-icons i { 
+    position: absolute; 
+    padding: 5px 10px;
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    border: none;
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+} 
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }
+
+
 
 th{
     background-color : #DDB6C6 !important;
@@ -46,3 +75,5 @@ tr:nth-child(odd) {
 .container{
     max-width: 100%;
 }
+
+

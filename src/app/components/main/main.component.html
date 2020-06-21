@@ -1,3 +1,4 @@
+
 <div class="container" [style]="{'min-width':'500px'}">
    <h1> Corona Statics </h1>
     </div>
@@ -9,7 +10,8 @@
     currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
           <ng-template pTemplate="caption">
 
-            <div class="ui-table-caption ui-widget-header">
+            <div class="input-icons"> 
+              <i class="fa fa-search " aria-hidden="true"></i>
                 <input type="input"  placeholder="Search Country" name="name" id='name'
                   (input)="dt.filterGlobal($event.target.value,'contains')" />
                 <label for="name"></label>
