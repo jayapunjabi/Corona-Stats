@@ -2,7 +2,7 @@ div,body .u-table .u-table-thead {
     padding: 0.571em 0;
     border: 1px solid #F1D4D4;
     font-weight: 700;
-    color: #333333;
+    color:#484C7F;
     background-color :white;
     width: 100%;
 }
@@ -28,6 +28,8 @@ h1{
     padding: 5px 30px;
     border-bottom: 1.5px solid rgb(174, 174, 194);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    
 
     
 }
@@ -52,6 +54,7 @@ h1{
     transition: text-indent 0.4s 0.4s ease; 
     text-indent: -100%;
     opacity: 1;
+    color:#484C7F;
  }
 
 

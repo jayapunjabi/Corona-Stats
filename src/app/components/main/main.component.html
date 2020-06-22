@@ -1,8 +1,8 @@
 
-<div class="container" >
+<div class="container" [style]="{'min-width':'500px'}">
    <h1> Corona Statics </h1>
     </div>
-    <div class="u-table u-table-thead ">
+    <div class="u-table u-table-thead">
         <p-table #dt [columns]="cols" [value]="countryStat"  
         [scrollable]="true" [style]="{'min-width':'500px'}"
           [loading]="loading"
