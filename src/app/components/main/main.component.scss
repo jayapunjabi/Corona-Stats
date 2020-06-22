@@ -1,4 +1,4 @@
-div,body .ui-table .ui-table-thead {
+div,body .u-table .u-table-thead {
     padding: 0.571em 0;
     border: 1px solid #F1D4D4;
     font-weight: 700;
@@ -10,6 +10,7 @@ div,body .ui-table .ui-table-thead {
 .container{
     background-color: #484C7F;
     width: 100%;
+    min-width:'500px';
 }
 
 h1{

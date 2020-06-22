@@ -1,8 +1,8 @@
 
-<div class="container" [style]="{'min-width':'500px'}">
+<div class="container" >
    <h1> Corona Statics </h1>
     </div>
-    <div class="ui-table ui-table-thead">
+    <div class="u-table u-table-thead ">
         <p-table #dt [columns]="cols" [value]="countryStat"  
         [scrollable]="true" [style]="{'min-width':'500px'}"
           [loading]="loading"
@@ -27,7 +27,7 @@
           <ng-template pTemplate="body" let-rowData let-columns="columns">
             <tr>
               <td  *ngFor="let col of columns">
-                <span class="ui-g">
+                <span class="u-g">
                   {{rowData[col.field]}}
                 </span>
               </td>
